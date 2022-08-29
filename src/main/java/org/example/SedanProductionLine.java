@@ -2,7 +2,7 @@ package org.example;
 
 public class SedanProductionLine implements ProductionLine {
     @Override
-    public void run() {
+    public void work() {
         System.out.println("Sedan built");
     }
 }

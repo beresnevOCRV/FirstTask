@@ -12,7 +12,7 @@ public class AutoFactory {
     public void runProduction() {
         int autoBuilt = 0;
         while (autoBuilt < productionSize) {
-            productionLine.run();
+            productionLine.work();
             autoBuilt++;
         }
     }
