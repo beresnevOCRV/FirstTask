@@ -11,9 +11,19 @@ public class AutoFactory {
 
     public void runProduction() {
         int autoBuilt = 0;
+
         while (autoBuilt < productionSize) {
             productionLine.work();
             autoBuilt++;
         }
     }
+
+    public int getProductionSize() {
+        return productionSize;
+    }
+
+    public void setProductionSize(int productionSize) {
+        this.productionSize = productionSize;
+    }
+
 }

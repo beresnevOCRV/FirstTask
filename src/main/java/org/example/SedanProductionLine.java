@@ -1,8 +1,13 @@
 package org.example;
 
 public class SedanProductionLine implements ProductionLine {
+    public SedanProductionLine() {
+    }
+
     @Override
     public void work() {
-        System.out.println("Sedan built");
+      // дополнение к первому заданию
+        Car newCar = new Car("Black");
     }
+
 }
